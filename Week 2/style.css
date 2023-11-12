@@ -1,0 +1,122 @@
+
+#black-background-for-form{
+    background-color: #25323c;
+    width:28vw;
+    height:55vh;
+    margin: 300px;
+    margin-left: 700px;
+}
+
+#green-button {
+    background-color: #36a984;  
+    width: 45% ; 
+    height: 50px ; 
+    margin-top: 40px;
+    margin-left: 40px;
+    font-size: 20px;
+    border-color:#36a984;
+}
+
+#gray-button {
+    background-color: #455259;   
+    width: 45% ; 
+    height: 50px ; 
+    margin-left: -5px;
+    font-size: 20px;
+    color: #7c97a0;
+    border-color:#455259;  
+}
+
+#two-buttons-green-and-gray {
+    margin-right: 3%;
+    
+}
+
+#bottom-button-get-started {
+    background-color: #36a984;  
+    width: 90% ; 
+    height: 100% ; 
+    margin-left: 25%;
+    margin-right: 30%;
+    margin-bottom: 30%;
+    font-size: 40px;
+    border-color:#36a984;  
+    text-align: center;
+    padding: 10px; 
+}
+
+.white-wording {
+    color: whitesmoke;
+}
+
+#Sign-Up-For-Free{
+    font-size: 50px;
+    text-align: center;
+    font-weight: 20;
+    font-family: sans-serif;
+}
+
+#input-form-box {
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-right:30px
+}
+
+#first-and-last-name {
+    display: flex;
+    gap: 10px;
+  
+}
+
+#fname {
+    width: 20vw;
+    height: 1.5vw;
+    margin-bottom: 40px;
+    border-color:#455259; 
+    background-color: transparent;
+    border-width: 3px;
+    border-style: solid;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+#lname {
+    width: 20vw;
+    height: 1.5vw;
+    margin-bottom: 40px;
+    border-color:#455259; 
+    background-color: transparent;
+    border-width: 3px;
+    border-style: solid;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+#password {
+    width: 23vw;
+    height: 1.5vw;
+    margin-bottom: 40px;
+    border-color:#455259; 
+    background-color: transparent;
+    border-width: 3px;
+    border-style: solid;
+    font-size: 20px;
+    color: whitesmoke;
+    
+}
+
+#email{
+    width: 23vw;
+    height: 1.5vw;
+    margin-bottom: 40px;
+    border-color:#455259; 
+    background-color: transparent;
+    border-width: 3px;
+    border-style: solid;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+#bottom-button {
+    text-align: center;
+}
