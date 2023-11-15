@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <section id="main-header-content">
+        <header id="header-content">
+            <div id="studio-icon">STUDIO</div>
+            <div id="menu">
+                <button class="button-decoration"><a href="#" class="button-text">Login</a></button>
+                <img id="hamburger-image" src="images/icons/Hamburger_icon.svg.png" alt="hamburger menu">
+            
+            </div>
+        </header>
+
+        <div class="two-sentences-content">
+            <h2 id="top-sentence">We Work Hard, We Play Harder</h2>
+            <h2 id="bottom-sentence">We Create <br> Elegant Solutions</h2>
+        </div>
+    </section>
+    <section id="combine-all">
+    <div id="aboves-articles-content"><h2 id="color-text">Simplified project development <br> for a complex world</h2></div>
+    <section id="articles-content">
+        <div class="house-cards">
+            <div class="color-the-cards">
+                <img class="house-cards-image" src="images/pexels-binyamin-mellish-106399.jpg" alt="house with solar panels">
+                <div class="content-container">
+                    <h3>Residential Solutions</h3>
+                    <p><em>Lorem ipsum dolor sit amet consectetur adipisicing elit.</em></p>
+                    <div class="button-center"></div><button class="button-decoration" class="btn btn-primary" data-toggle="modal" data-target="#orderModal"><a href="#" class="button-text">More</a></button></div>
+                        <!-- Modal -->
+<div class="modal" id="orderModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h4 class="modal-title">Order Confirmation</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <!-- Modal Body -->
+            <div class="modal-body">
+                <h3>A toy dog</h3>
+                <h4>$45.99</h4>
+                <p>A toy dog for the front door</p>
+                <p>Would you like to place an order of this product?</p>
+                <input type="text" class="form-control" id="userInput" placeholder="Yes/No/IDK">
+            </div>
+
+            <!-- Modal Footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" onclick="submitAnswer()">Submit</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+
+            <!-- Feedback Section -->
+            <div class="modal-body">
+                <p id="feedback"></p>
+            <!-- Add to Cart Button -->
+            <button id="addToCartBtn" class="btn btn-success" style="display: none">Add to Cart</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+            </div>
+        </div>
+        <div class="house-cards">
+            <div class="color-the-cards">
+                <img class="house-cards-image" src="images/pexels-cindy-shebley-16148900.jpg" alt="house with solar panels">
+                <div class="content-container">
+                    <h3>Utility-Scale Solutions</h3>
+                    <p><em>Lorem ipsum dolor sit amet consectetur adipisicing elit.</em></p>
+                    <div class="button-center"></div><button class="button-decoration" class="btn btn-primary" data-toggle="modal" data-target="#orderModal"><a href="#" class="button-text">More</a></button></div>
+                       <!-- Modal -->
+<div class="modal" id="orderModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h4 class="modal-title">Order Confirmation</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <!-- Modal Body -->
+            <div class="modal-body">
+                <h3>Key Chain</h3>
+                <h4>$25.99</h4>
+                <p>A key chain for the front door</p>
+                <p>Would you like to place an order of this product?</p>
+                <input type="text" class="form-control" id="userInput" placeholder="Yes/No/IDK">
+            </div>
+
+            <!-- Modal Footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" onclick="submitAnswer()">Submit</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+
+            <!-- Feedback Section -->
+            <div class="modal-body">
+                <p id="feedback"></p>
+
+            <!-- Add to Cart Button -->
+            <button id="addToCartBtn" class="btn btn-success" style="display: none">Add to Cart</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+            </div>
+        </div>
+        <div class="house-cards">
+            <div class="color-the-cards">
+                <img class="house-cards-image" src="images/pexels-pixabay-269077.jpg" alt="house with solar panels">
+                <div class="content-container">
+                    <h3>Commercial Solutions</h3>
+                    <p><em>Lorem ipsum dolor sit amet consectetur adipisicing elit.</em></p>
+                    <div class="button-center"></div><button class="button-decoration" class="btn btn-primary" data-toggle="modal" data-target="#orderModal"><a href="#" class="button-text">More</a></button></div>
+                    <!-- Modal -->
+<div class="modal" id="orderModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h4 class="modal-title">Order Confirmation</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <!-- Modal Body -->
+            <div class="modal-body">
+                <h3> House Mat</h3>
+                <h4>$5.99</h4>
+                <p>A small mat for the front door</p>
+                <p>Would you like to place an order of this product?</p>
+                <input type="text" class="form-control" id="userInput" placeholder="Yes/No/IDK">
+            </div>
+
+            <!-- Modal Footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" onclick="submitAnswer()">Submit</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+
+            <!-- Feedback Section -->
+            <div class="modal-body">
+                <p id="feedback"></p>
+            <!-- Add to Cart Button -->
+            <button id="addToCartBtn" class="btn btn-success" style="display: none">Add to Cart</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+                </div>
+            </div>
+    </section>
+</section>  
+
+<!-- Bootstrap JS and Popper.js (required for Bootstrap) -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+<script>
+    // Function to submit the user's answer and show feedback
+    function submitAnswer() {
+        // Get user input
+        var userInput = document.getElementById('userInput').value.toLowerCase();
+
+        // Get feedback element
+        var feedbackElement = document.getElementById('feedback');
+
+        // Provide feedback based on user input
+        if (userInput === 'yes') {
+            feedbackElement.innerHTML = 'Great! Let’s move forward';
+        } else if (userInput === 'no') {
+            feedbackElement.innerHTML = 'Sorry, Let’s check something else';
+        } else if (userInput === 'idk') {
+            feedbackElement.innerHTML = '-_-';
+        } else {
+            feedbackElement.innerHTML = 'Invalid input. Please enter Yes, No, or IDK.';
+        }
+    }
+</script>
+</body>
+</html>
